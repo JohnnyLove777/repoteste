@@ -8,7 +8,7 @@ const fs = require('fs');
 //Para carregarmos o vídeo em nossa máquina Windows
 const client = new Client({
     puppeteer: {
-        executablePath: 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     }
   });
 
